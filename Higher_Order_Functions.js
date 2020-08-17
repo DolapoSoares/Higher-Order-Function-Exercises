@@ -32,7 +32,8 @@ function randomGame(){
           console.log(false);
       }
   }
-
+//console.log(isEven(2));
+//console.log(isEven(3));
 
 function isOdd(num){
     if(num % 2 !== 0){
@@ -41,6 +42,8 @@ function isOdd(num){
         console.log(false);
     }
 }
+//console.log(isOdd(2));
+//console.log(isOdd(3));
 
 function isPrime(num) {
     for(let i = 2; i <= Math.sqrt(num); i++) {
